@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+<div class="container mx-auto px-4 py-10">
+    <header class="bg-white bg-opacity-50 backdrop-blur-sm shadow-md rounded-lg p-6 mb-8">
+        <div class="flex justify-between mb-4">
+            <div class="w-40">
+                <img src="https://seeklogo.com/images/U/uninassau-logo-6EA85E82A5-seeklogo.com.png" alt="Imagem" class="w-full h-auto object-cover">
+            </div>
+            <div class="">
+                <div class="flex space-x-4 justify-end ml-auto w-full">
+                    <a href="#" class="px-4 py-2 flex items-center gap-2 bg-blue-500 text-white rounded hover:bg-pink-700"><i class="fas fa-book-open"></i> BIBLIOTECA</a>
+                    <a href="#" class="px-4 py-2 flex items-center gap-2 bg-blue-500 text-white rounded hover:bg-pink-700"><i class="fas fa-pencil"></i> SUAS NOTAS</a>
+                </div>
+                <div class="mt-8">
+                    <div class="flex space-x-4">
+                        <a href="#" class="px-4 py-2 flex items-center gap-2 bg-gray-600 text-white rounded hover:bg-red-700"><i class="fas fa-home"></i> HOME</a>
+                        <a href="#" class="px-4 py-2 flex items-center gap-2 bg-gray-800 text-white rounded hover:bg-yellow-700"><i class="fas fa-graduation-cap"></i> GRADUAÇÕES</a>
+                        <a href="#" class="px-4 py-2 flex items-center gap-2 bg-gray-800 text-white rounded hover:bg-purple-700"><i class="fas fa-user-graduate"></i> POS GRADUAÇÕES</a>
+                        <a href="#" class="px-4 py-2 flex items-center gap-2 bg-gray-800 text-white rounded hover:bg-indigo-700"><i class="fas fa-university"></i> INSTITUCIONAL</a>
+                        <a href="#" class="px-4 py-2 flex items-center gap-2 bg-gray-800 text-white rounded hover:bg-pink-700"><i class="fas fa-comments"></i> FALE CONOSCO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="container mx-auto px-4 py-10">
+    <section class="flex">
+        <div class="w-1/2">
+            <div class="carousel">
+                <img src="https://fasouza.com.br//img/banner/19-capacitacao/feed-cursos-capacitacao.jpg" alt="Imagem 1">
+            </div>
+        </div>
+        <div class="w-1/2 pl-10">
+            <p class="text-4xl font-bold mb-4">Faltam 52 dias para o vestibular</p>
+            <button class="px-6 py-4 bg-blue-500 text-white rounded-full hover:bg-blue-700 mt-4">Clique Aqui</button>
+        </div>
+    </section>
+</div>
+<footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-8">
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-1">
+                <h3 class="text-lg font-semibold mb-4">Graduação</h3>
+                <ul class="list-disc pl-5 text-gray-300">
+                    <li><a href="#">Curso de Ciências da Computação</a></li>
+                    <li><a href="#">Curso de Engenharia Mecânica</a></li>
+                    <li><a href="#">Curso de Direito</a></li>
+                </ul>
+            </div>
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-1">
+                <h3 class="text-lg font-semibold mb-4">Manuais</h3>
+                <ul class="list-disc pl-5 text-gray-300">
+                    <li><a href="#">Manual de Redes</a></li>
+                    <li><a href="#">Manual de Programação</a></li>
+                    <li><a href="#">Manual de Matemática</a></li>
+                </ul>
+            </div>
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-1">
+                <h3 class="text-lg font-semibold mb-4">Sites e Blogs</h3>
+                <ul class="list-disc pl-5 text-gray-300">
+                    <li><a href="#">Blog de Tecnologia</a></li>
+                    <li><a href="#">Site Oficial da Universidade</a></li>
+                    <li><a href="#">Portal Educação</a></li>
+                </ul>
+            </div>
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-1">
+                <h3 class="text-lg font-semibold mb-4">Contatos</h3>
+                <ul class="list-disc pl-5 text-gray-300">
+                    <li><a href="#">Email: contato@universidade.com</a></li>
+                    <li><a href="#">Telefone: (11) 12345-6789</a></li>
+                    <li><a href="#">Endereço: Rua das Flores, 123 - São Paulo</a></li>
+                </ul>
+            </div>
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-1">
+                <h3 class="text-lg font-semibold mb-4">Outras Informações</h3>
+                <ul class="list-disc pl-5 text-gray-300">
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
